@@ -1,0 +1,61 @@
+.menu_sidebar {
+  width: 300px;
+}
+.menu_sidebar .menu_all {
+  border: rgb(102, 98, 98) 1px solid;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.menu_sidebar .menu_all:hover {
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2509803922);
+  transition-duration: 0.7s;
+  opacity: 0.9;
+}
+.menu_sidebar .menu_all img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px 0px 0px 15px;
+}
+.menu_sidebar .menu_all p {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+.menu_sidebar .menu_positions {
+  margin-top: 70px;
+}
+.menu_sidebar .menu_positions div {
+  border: rgb(102, 98, 98) 1px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-top: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.menu_sidebar .menu_positions div:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2509803922);
+  transition-duration: 0.7s;
+  opacity: 0.9;
+}
+.menu_sidebar .menu_positions div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px 0px 0px 15px;
+}
+.menu_sidebar .menu_positions div p {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}/*# sourceMappingURL=menu_sidebar.css.map */

@@ -1,0 +1,83 @@
+.meals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meals h2 {
+  font-family: "Quicksand";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+.meals .menu_meals {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.meals .menu_meals .menu_div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  border: 1px rgb(134, 121, 121) solid;
+  border-radius: 15px;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.meals .menu_meals .menu_div:hover {
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  transition-duration: 0.7s;
+  opacity: 0.9;
+}
+.meals .menu_meals .menu_div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+.meals .menu_meals .menu_div p {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.menu_popup_btns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.menu_popup_btns .menu_popup_btn {
+  width: 165px;
+  height: 50px;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  background: #F46A06;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.menu_popup_btns .menu_popup_btn:hover {
+  background-color: white;
+  color: #F46A06;
+  transition-duration: 1s;
+  border: 1px solid #F46A06;
+}/*# sourceMappingURL=menu_popup.css.map */

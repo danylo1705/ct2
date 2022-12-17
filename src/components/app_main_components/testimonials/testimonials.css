@@ -1,0 +1,52 @@
+.testimonials {
+  height: 600px;
+  background-color: #F46A06;
+  margin-top: 42px;
+  padding-top: 100px;
+}
+.testimonials h2 {
+  font-family: "Quicksand";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.testimonials .slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+}
+.testimonials .slider .testim_slider .slider_elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials .slider .testim_slider .slider_elem img {
+  width: 80px;
+  height: 80px;
+}
+.testimonials .slider .testim_slider .slider_elem h2 {
+  font-family: "Roboto";
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  width: 604px;
+  margin-top: 12px;
+}
+.testimonials .slider .testim_slider .slider_elem p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #F46A06;
+  margin-top: 22px;
+}/*# sourceMappingURL=testimonials.css.map */

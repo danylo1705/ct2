@@ -1,0 +1,74 @@
+.cart_item {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px rgb(224, 219, 219) solid;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.cart_item .cart_item_name {
+  display: flex;
+  align-items: center;
+}
+.cart_item .cart_item_name img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cart_item .cart_item_name p {
+  margin-left: 20px;
+  font-family: "Quicksand";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.cart_item .cart_item_price {
+  display: flex;
+  align-items: center;
+}
+.cart_item .cart_item_price .price {
+  font-family: "Quicksand";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F46A06;
+  margin-right: 100px;
+}
+.cart_item .cart_item_price .change {
+  display: flex;
+  align-items: center;
+}
+.cart_item .cart_item_price .change .add {
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.cart_item .cart_item_price .change .reduce {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.cart_item .cart_item_price .change .qty {
+  font-family: "Quicksand";
+  font-size: 25px;
+  color: #F46A06;
+  margin-right: 15px;
+}/*# sourceMappingURL=cart_pos_item.css.map */
