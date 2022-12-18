@@ -12,13 +12,13 @@ export default function Nav (props) {
                 <img src={fooddx_svg} alt="" />
 
                 <div className="ul_btn">
-                <ul>
+                <ul className='snip1217'>
                   
                      <li><NavLink to={'/'}>Home</NavLink></li>    
                     <li><a href="#about_us">About Us</a></li>
-                    <li><Menu_popup 
+                    <li><a href="#"><Menu_popup 
                      setType={props.setType}
-                     name='Exprole Foods' className='navbar_menu_popup' /></li>
+                     name='Exprole Foods' className='navbar_menu_popup' /></a></li>
                     <li><a href="#testimonials">Reviews</a></li>
                     <li><a href="#faq">FAQ</a></li> 
                     

@@ -24,11 +24,6 @@
   width: 377px;
   margin-right: 50px;
 }
-.navbar nav .ul_btn ul li:hover a, .navbar nav .ul_btn ul li:hover .navbar_menu_popup {
-  color: rgb(134, 128, 128);
-  transition: all 0.7s ease;
-  font-size: 23px;
-}
 .navbar nav .ul_btn ul li a {
   color: #F46A06;
   font-family: "Roboto";
@@ -69,4 +64,54 @@
   color: #F46A06;
   transition-duration: 1s;
   border: 1px solid #F46A06;
+}
+
+.snip1217 * {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+.snip1217 li {
+  display: inline-block;
+  list-style: outside none none;
+}
+
+.snip1217 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.snip1217 a:before,
+.snip1217 a:after {
+  height: 3px;
+  position: absolute;
+  content: "";
+  transition: all 0.35s ease;
+  background-color: #F46A06;
+  width: 0;
+}
+
+.snip1217 a:before {
+  top: 0;
+  left: 0;
+}
+
+.snip1217 a:after {
+  bottom: 0;
+  right: 0;
+}
+
+.snip1217 a:hover,
+.snip1217 .current a {
+  color: #ffffff;
+}
+
+.snip1217 a:hover:before,
+.snip1217 .current a:before,
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
+  width: 100%;
 }/*# sourceMappingURL=nav.css.map */
